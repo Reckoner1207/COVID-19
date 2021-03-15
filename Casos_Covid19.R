@@ -108,5 +108,3 @@ covid2 %>%
   facet_wrap(~ Region, ncol = 1, scales = "free_y") +
   labs(x = "Fecha", y = "Casos Nuevos", 
        title = "Casos Confirmados de Covid-19")
-
-covid %>% arrange(desc(Fecha))
